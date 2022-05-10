@@ -1,0 +1,68 @@
+Rombase Offsets
+
+900000 - New Move Data
+
+901800 - New Move Name Data
+
+90336C - New Move Animation Pointers
+
+903B70 - New Move Effect Pointers
+
+904000 - New Move Description Pointers
+
+904800 - Sound-Based Moves
+904820 - Powder Moves
+904830 - Ball and Bomb moves
+
+905000 - New Move Effects
+
+908000 - New Ability Effects 
+
+908720 - Reckless Table
+908738 - Iron Fist Table
+908758 - Sheer Force Table
+908844 - Mega Launcher Table
+908850 - Strong Jaw Table
+
+910000 - New Move Animations
+
+920000 - New Move Descriptions
+
+92FD00 - Animation Background Table
+
+930000 - New Animation Backgrounds
+
+93B000 - New Item Images
+
+940000 - New Animation Particles
+
+950000 - Ability Name Table
+
+9507F0 - Ability Description Table
+
+950A60 - New Ability Descriptions
+
+951400 - New Pokemon Movesets (Kanto)
+952640 - New Pokemon Movesets (Johto)
+9532E0 - New Pokemon Movesets (Hoenn)
+954330 - Spare Moves for Movesets
+
+95F480 - Move Effect Command Table
+
+95F880 - PSS Icon Routine
+
+95F900 - PSS Icons
+
+960000 - New Particle Table
+
+96197C - New Type Icon Table
+9619E0 - New Type Information
+961B50 - New Type Names
+
+964000 - Type-Matchup Header Table
+964098 - Type-Matchup Data Table
+964130 - Number of Type-Matchups
+964160 - New Type-Matchup Headers
+9641A0 - New Type-Matchup Data
+
+964700 - Egg Move Table
