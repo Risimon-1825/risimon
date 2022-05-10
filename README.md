@@ -24,8 +24,11 @@ New to 1.5 is the Eviolite
 # Conflicts:
 
 This base IS NOT compatible with YAPE, if you want to edit moves or Pokemon, you will have to use G3HS, G3T or Pokemon Game Editor.
+
 This base IS compatible with JPan's hacked engine. Though you will need to apply this rombase FIRST.
+
 If you do want to make custom moves and/or abilities you will need to add them to the end of their respective lists, as I will be constantly updating this patch once more moves have good quality animations/effects, and they will continue from where Lunar Dance and Quick Feet end off respectively.
+
 In order to maximise compatibility with G3HS, I have changed the name of the rom from BPRE to MrDS, this means it WILL NOT WORK in any romhacking tool except for G3HS UNLESS you change it back AFTER opening it in G3HS!
 
 To do this open the rom up in a Hex Editor and change the bytes at 0x0000AC to say BPRE and NOT MrDS.
