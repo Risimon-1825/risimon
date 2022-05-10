@@ -1,6 +1,4 @@
-Decap and Attack Rombase
-
-Overview:
+# Overview
 
 The game is now almost entirely decapitalised.
 The few exceptions are actual graphics that act as buttons eg. the Pokemon types that show up.
@@ -23,26 +21,35 @@ Additionally the rombase features XY Style Movesets for all 386 Pokemon. Fairy t
 New to 1.4 are new items, currently only the Choice Specs, Choice Scarf and Assault Vest are implemented, but future release will have new items, such as the Life Orb, Black Sludge and Rocky Helmet.
 New to 1.5 is the Eviolite
 
-Conflicts:
+#Conflicts:
 
+This base IS NOT compatible with YAPE, if you want to edit moves or Pokemon, you will have to use G3HS, G3T or Pokemon Game Editor.
 This base IS compatible with JPan's hacked engine. Though you will need to apply this rombase FIRST.
-
 If you do want to make custom moves and/or abilities you will need to add them to the end of their respective lists, as I will be constantly updating this patch once more moves have good quality animations/effects, and they will continue from where Lunar Dance and Quick Feet end off respectively.
+In order to maximise compatibility with G3HS, I have changed the name of the rom from BPRE to MrDS, this means it WILL NOT WORK in any romhacking tool except for G3HS UNLESS you change it back AFTER opening it in G3HS!
 
-Credits:
+To do this open the rom up in a Hex Editor and change the bytes at 0x0000AC to say BPRE and NOT MrDS.
+The ini for G3HS has been UPDATED so you will need to REPLACE it with the one I provide in the download.
 
-Decapitalisation - MrDollSteak
-Pokedex Glitch Fix - Hackmew
-Physical/Special/Status Split - Doesntknowhowtoplay
-PSS Icons - Darthatron
-Extended Move Table - Jambo51, Itman
-Extended Move Effect Table - Jambo51, Itman
-Extended Move Background Table - Chaos Rush, Tajaros
-Extended Soundproof Table - Kurapika
-New Moves - Contributors to '4th&5th Gen. Move Resources', MrDollSteak, Jambo51, KDS, Chaos Rush
-New Movesets - MrDollSteak
-Extended Ability Table - MrDollSteak
-New Abilities - Doesn'tknowhowtoplay, Kurapika, Karatekid552, Jambo51, HidoranBlaze, KDS and MrDollSteak
-Fairy-Type - MrDollSteak
-New Items - Doesn'tknowhowtoplay, MrDollSteak, HidoranBlaze, KDS
-Bug Finding - Chrunch, Noossab Blue, The Shiny Ho-Oh, Projectwolfie, Aidane154 and Doesn'tknowhowtoplay
+# Usefuls links : 
+## Tutorials :
+https://www.pokecommunity.com/showthread.php?t=233583
+#### XSE : 
+https://www.pokecommunity.com/showthread.php?t=279345
+#### Advanced series : 
+https://www.pokecommunity.com/showthread.php?t=196143
+#### Free space finder : 
+http://www.romhacking.net/utilities/540/
+#### G3T : 
+https://www.pokecommunity.com/showthread.php?t=311461
+#### G3HS : 
+https://www.pokecommunity.com/showthread.php?t=320113
+#### Item manager : 
+https://www.mediafire.com/download/mlbibxavgyw9l80/Item+Manager.rar
+#### NSE ( both version ) 
+https://www.pokecommunity.com/showthread.php?t=205687
+
+#### Starting out :
+https://www.pokecommunity.com/showthread.php?t=326609
+#### Musics / sounds : 
+https://www.pokecommunity.com/showthread.php?t=121856
