@@ -21,7 +21,7 @@ Additionally the rombase features XY Style Movesets for all 386 Pokemon. Fairy t
 New to 1.4 are new items, currently only the Choice Specs, Choice Scarf and Assault Vest are implemented, but future release will have new items, such as the Life Orb, Black Sludge and Rocky Helmet.
 New to 1.5 is the Eviolite
 
-#Conflicts:
+# Conflicts:
 
 This base IS NOT compatible with YAPE, if you want to edit moves or Pokemon, you will have to use G3HS, G3T or Pokemon Game Editor.
 This base IS compatible with JPan's hacked engine. Though you will need to apply this rombase FIRST.
