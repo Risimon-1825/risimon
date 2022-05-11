@@ -1,0 +1,152 @@
+{
+  "todohighlight.keywords": [
+    {
+      "text": "data_ability",
+      "backgroundColor": "#00000000",
+      "color": "#4EC9B0",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "data_item",
+      "backgroundColor": "#00000000",
+      "color": "#4EC9B0",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "data_move",
+      "backgroundColor": "#00000000",
+      "color": "#4EC9B0",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "data_creature",
+      "backgroundColor": "#00000000",
+      "color": "#4EC9B0",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "data_creature_form",
+      "backgroundColor": "#00000000",
+      "color": "#4EC9B0",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "data_quest",
+      "backgroundColor": "#00000000",
+      "color": "#4EC9B0",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "data_trainer",
+      "backgroundColor": "#00000000",
+      "color": "#4EC9B0",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "data_type",
+      "backgroundColor": "#00000000",
+      "color": "#4EC9B0",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "data_zone",
+      "backgroundColor": "#00000000",
+      "color": "#4EC9B0",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "each_data_ability",
+      "backgroundColor": "#00000000",
+      "color": "#4FC1FF",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "each_data_item",
+      "backgroundColor": "#00000000",
+      "color": "#4FC1FF",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "each_data_move",
+      "backgroundColor": "#00000000",
+      "color": "#4FC1FF",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "each_data_creature",
+      "backgroundColor": "#00000000",
+      "color": "#4FC1FF",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "each_data_quest",
+      "backgroundColor": "#00000000",
+      "color": "#4FC1FF",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "each_data_trainer",
+      "backgroundColor": "#00000000",
+      "color": "#4FC1FF",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "each_data_type",
+      "backgroundColor": "#00000000",
+      "color": "#4FC1FF",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "each_data_zone",
+      "backgroundColor": "#00000000",
+      "color": "#4FC1FF",
+      "fontWeight": "bold"
+    },
+    {
+      "text": "to_enum",
+      "backgroundColor": "#00000000",
+      "color": "#C586C0"
+    },
+    {
+      "text": "__method__",
+      "backgroundColor": "#00000000",
+      "color": "#569CD6"
+    },
+    {
+      "text": "pokemon",
+      "backgroundColor": "#00000000",
+      "color": "#FF0000",
+      "textDecoration": "line-through",
+    },
+    {
+      "text": "Pokemon",
+      "backgroundColor": "#00000000",
+      "color": "#FF0000",
+      "textDecoration": "line-through",
+    },
+    {
+      "text": "pkm",
+      "backgroundColor": "#00000000",
+      "color": "#FF0000",
+      "textDecoration": "line-through",
+    },
+    {
+      "text": "pkmn",
+      "backgroundColor": "#00000000",
+      "color": "#FF0000",
+      "textDecoration": "line-through",
+    },
+    {
+      "text": "GameData::",
+      "backgroundColor": "#DA0000",
+      "color": "#FFFFFF",
+      "borderRadius": "4px"
+    },
+    {
+      "text": "db_symbol",
+      "backgroundColor": "#00000000",
+      "color": "#569CD6",
+    },
+  ],
+  "todohighlight.include": ["**/*.rb"]
+}

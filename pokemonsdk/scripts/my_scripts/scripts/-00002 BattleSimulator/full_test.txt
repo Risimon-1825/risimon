@@ -1,0 +1,40 @@
+pokemon: 158 => GameData::Pokemon.all.uniq { |i| [i.first.type1, i.first.type2] }
+attaques: 606 => GameData::Skill.all.uniq { |i| [i.be_method, i.type, i.power, i.accuracy, i.priority] }
+abilities: 189 => Battle::Effects::Ability.instance_variable_get(:@registered_abilities).size
+items: 121 => Battle::Effects::Item.instance_variable_get(:@registered_items).size
+
+total_sans_double_combinaison: 2189661012 | 5ms: 126jours
+
+types_pures: 18 => GameData::Pokemon.all.select { |i| i.first.type2 == 0 }.uniq { |i| i.first.type1 }
+total_avec_seulement_18_types_pures: 249455052 | 5ms: 14jours
+
+test_séparé: attaques => types, attaques => abilities x items (neutre)
+at: 10908 | 5ms: 55seconds
+aai: 13858614 | 5ms: 19h
+
+test_séparé: attaque => types, attaques => abilities, attaques => items
+at: 10908 | 5ms: 55seconds
+aa: 114534 | 5ms: 10minutes
+ai: 73326 | 5ms: 7minutes
+
+test_types_des_deux_cotes:
+attaques => types²: 196344 | 5ms: 16minutes
+
+
+Possible optimisations:
+=> définir des conditions de test pour certains éléments
+===> Exemples: Drives, ne doit avoir que 2 vecteurs: attaques, 2 pokémon (genesect et pas genesect)
+===> Pour les items les seuls talents à tester sont magic_guard, unnerve, gluttony, serene_grace, magic_guard
+===> Pour les talents les seuls talents d'interaction à tester sont: damp, overcoat, rattled
+===> Pour les talents les seuls items à tester sont: smooth_rock, kings_rock, razor_fang, damp_rock, heat_rock, icy_rock
+=> Certains talents/objets ne concernent que l'utilisateur, d'autres que la cible
+=> Certains talents/objets ne trigger que sur la présence d'un effet
+=> Certaines attaques sont insensibles à tout type d'item/ability (sauf cas génériques)
+===> cas génériques:
+	on_move_prevention_user: attract, confusion, destiny_bond, flinch, gravity, powder, taunt, paralysis, asleep, mold_breaker, stance_change, truant
+	on_move_prevention_target: out of reach, craftyshield, protect, queenly majesty, dazzling, sap sipper, electric, misty, psychic, magnitude
+	on_move_disabled_check: disable, gorilla tactics, choice item <= test particulier srx.
+Test particulier: Harvest (dépend de l'item_effect)
+Test particulier: Magic Coat, Magic Bounce
+
+Estimation globale: 40 minutes (at, aa launcher, aa target, ai launcher, ai target, cas particuliers)

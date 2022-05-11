@@ -1,0 +1,177 @@
+---
+- - Joueur
+  - Traing
+- - - :id: 3
+      :given_name: Florizarre
+      :level: 100
+      :loyalty: 70
+      :shiny: false
+      :form: 0
+      :item: 0
+      :gender: 1
+      :ability: 0
+      :moves:
+      - 0
+      - 0
+      - 0
+      - 0
+      :ball: 4
+      :bonus:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      :stats:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - :id: 5
+      :given_name: Reptincel
+      :level: 100
+      :loyalty: 70
+      :shiny: false
+      :form: 0
+      :item: 0
+      :gender: 1
+      :ability: 1
+      :moves:
+      - 0
+      - 0
+      - 0
+      - 0
+      :ball: 4
+      :bonus:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      :stats:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - :id: 8
+      :given_name: Carabaffe
+      :level: 100
+      :loyalty: 70
+      :shiny: false
+      :form: 0
+      :item: 0
+      :gender: 1
+      :ability: 2
+      :moves:
+      - 0
+      - 0
+      - 0
+      - 0
+      :ball: 4
+      :bonus:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      :stats:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - :id: 25
+      :given_name: Pikachu
+      :level: 100
+      :loyalty: 70
+      :shiny: false
+      :form: 0
+      :item: 0
+      :gender: 2
+      :ability: 12
+      :moves:
+      - 0
+      - 0
+      - 0
+      - 0
+      :ball: 4
+      :bonus:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      :stats:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  - - :id: 25
+      :given_name: Pikachu
+      :level: 1
+      :loyalty: 70
+      :shiny: false
+      :form: 0
+      :item: 0
+      :gender: 1
+      :ability: 12
+      :moves:
+      - 0
+      - 0
+      - 0
+      - 0
+      :ball: 4
+      :bonus:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      :stats:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - :id: 25
+      :given_name: Pikachu
+      :level: 1
+      :loyalty: 70
+      :shiny: false
+      :form: 0
+      :item: 0
+      :gender: 2
+      :ability: 12
+      :moves:
+      - 0
+      - 0
+      - 0
+      - 0
+      :ball: 4
+      :bonus:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      :stats:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0

@@ -1,0 +1,8 @@
+--- !ruby/object:Configs::SceneTitleConfig
+intro_movie_map_id: 14
+bgm_duration: 4418000
+bgm_name: audio/bgm/rosa_title
+language_selection_enabled: true
+additional_splashes:
+- pokemon_workshop
+control_wait: 0.5

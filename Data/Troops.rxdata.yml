@@ -1,0 +1,4252 @@
+---
+-
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$pokemon_party.wild_battle.setup"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - pc 0
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 37
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Changer par la musique de victoire des Pokémon
+      indent: 1
+      code: 108
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: XY_Trainer_Battle_Victory
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 241
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 35
+      - 35
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 35
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: !binary |-
+    UG9rw6ltb24gU2F1dmFnZXM=
+  id: 1
+  members:
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 80
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 176
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 272
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 368
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 464
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 560
+    immortal: false
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.setup_battle(1,1,1,"026")
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.set_trainer_names("Fillette Yuki")
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.configure_pokemons({:level => 20, :gender => 2},20)"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Voulez-vous enregistrer le combat ?
+      indent: 0
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - - Oui
+        - Non
+      - 2
+      indent: 0
+      code: 102
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - Oui
+      indent: 0
+      code: 402
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.magneto.done"
+      indent: 1
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - save_data($scene.magneto, "MagnetoVS.rxdata")
+      indent: 1
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      - Non
+      indent: 0
+      code: 402
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 404
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 35
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Combat En Ligne
+  id: 2
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.init_trainer_battle"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 36
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: XY_Trainer_Battle_Victory
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 241
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 35
+      - 35
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 35
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Combat de Dresseur
+  id: 3
+  members:
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 56
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 162
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 268
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 376
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 480
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 586
+    immortal: false
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.init_trainer_battle"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 36
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: XY_Trainer_Battle_Victory
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 241
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 35
+      - 35
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 35
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Combat de Champion
+  id: 4
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.init_trainer_battle"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 36
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: XY_Trainer_Battle_Victory
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 241
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 35
+      - 35
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 35
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Combat de Ligue
+  id: 5
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.init_trainer_battle"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 36
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: XY_Trainer_Battle_Victory
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 241
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 35
+      - 35
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 35
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: !binary |-
+    Q29tYmF0IGRlIE1hw650cmU=
+  id: 6
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 7
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 8
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.enemy_party.bag.add_item(:mega_stickpin)"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 31
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Tana
+  id: 9
+  members:
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 320
+    immortal: false
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.setup_battle(1,1,1,"027")
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.set_trainer_names("Gary")
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.set_trainer_class(130)"
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.set_trainer_phrases("Ahah, victoire !","Oh, mais comment ?")
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.configure_pokemons(20,20,20,20)"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Le combat démarre avec un pic toxic.
+      indent: 0
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - BattleEngine.state[:act_toxic_spikes] = 1
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - BattleEngine.state[:enn_toxic_spikes] = 1
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 31
+      - 31
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 31
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 36
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: XY_Trainer_Battle_Victory
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 241
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 35
+      - 35
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 35
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Gary le Scout
+  id: 10
+  members:
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 240
+    enemy_id: 12
+    x: 184
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 240
+    enemy_id: 214
+    x: 288
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 232
+    enemy_id: 402
+    x: 400
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 240
+    enemy_id: 541
+    x: 504
+    immortal: false
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 30
+      - 1
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 12
+      - "(e=BattleEngine::get_enemies[0];e.hp != e.max_hp)"
+      indent: 1
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - PFM::Text.set_variable('[PK]', BattleEngine.get_enemies[0].given_name)
+      indent: 2
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "[PK] récupère 1 pv."
+      indent: 2
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - BattleEngine.get_enemies[0].hp += 1
+      indent: 2
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - PFM::Text.reset_variables
+      indent: 2
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 2
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 34
+      - 34
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 34
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 36
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: XY_Trainer_Battle_Victory
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 241
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 35
+      - 35
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 35
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Paul
+  id: 11
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 12
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 13
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 14
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 15
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 16
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 17
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 18
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 19
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 20
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 21
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 22
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 23
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 24
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 25
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 26
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 27
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 28
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 29
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$pokemon_party.wild_battle.setup"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - pc 0
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 37
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Changer par la musique de victoire des Pokémon
+      indent: 1
+      code: 108
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: XY_Trainer_Battle_Victory
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 241
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 35
+      - 35
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 35
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Eclate Roc
+  id: 30
+  members:
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 240
+    enemy_id: 74
+    x: 232
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 232
+    enemy_id: 213
+    x: 384
+    immortal: false
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 31
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 32
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 33
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 34
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 35
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 36
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 37
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 38
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 39
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 40
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 41
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 42
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 43
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 44
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 45
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 46
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 47
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.setup_battle(1,1,1,"dresseur (68)")
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.set_trainer_names("Sbire Bidule")
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.configure_pokemons(*$data_random_gen)"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.gr_show_trainer_e()"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 407
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Ah Ah !
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Rien  ni personne ne peut vaincre '
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - la Team Galaxy !
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: PkmRS_Victory2
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 249
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Sbire Bidule : Je dois avouer que tu es un sacré dresseur. '
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'N''as-tu jamais envisagé ton intégration dans une des Team '
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - semant la pagaille dans les diverses régions de Gemme ?
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$game_variables[24]=$scene.add_money(2500)"
+      indent: 1
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "\\n[1] remporte \\v[24]$"
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: ''
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 249
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.gr_hide_trainer_e"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 405
+      - 405
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 405
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Combat IA
+  id: 48
+  members:
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 80
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 176
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 272
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 368
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 464
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 560
+    immortal: false
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.setup_battle(1,1,1,"dresseur (68)")
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.set_trainer_names("Sbire Bidule")
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.configure_pokemons(*$data_random_gen)"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.gr_show_trainer_e()"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 407
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Ah Ah !
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Rien  ni personne ne peut vaincre '
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - la Team Galaxy !
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: PkmRS_Victory2
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 249
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Sbire Bidule : Je dois avouer que tu es un sacré dresseur. '
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'N''as-tu jamais envisagé ton intégration dans une des Team '
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - semant la pagaille dans les diverses régions de Gemme ?
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$game_variables[24]=$scene.add_money(2500)"
+      indent: 1
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "\\n[1] remporte \\v[24]$"
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: ''
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 249
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.gr_hide_trainer_e"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 405
+      - 405
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 405
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Combat DEBUG
+  id: 49
+  members:
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 80
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 176
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 272
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 368
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 464
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 1
+    x: 560
+    immortal: false
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 50
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 51
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 52
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.setup_battle(2,1,1,"026","026")
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.set_trainer_names("Tana","Estelle")
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.set_trainer_class(3)"
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.set_trainer_phrases("Ahah, on est trop fortes !","Oh, mais comment
+        ?")
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.configure_pokemons(18,18)"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 36
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: XY_Trainer_Battle_Victory
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 241
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 35
+      - 35
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 35
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Test T_2v2
+  id: 53
+  members:
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 256
+    enemy_id: 335
+    x: 224
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 256
+    enemy_id: 336
+    x: 384
+    immortal: false
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 54
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.setup_battle(2,1,1)#,"dresseur (68)","dresseur (68)")
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.set_trainer_names("Sbire Truc","Sbire Chose")
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.configure_pokemons(5,{:level => 16, :shiny => true},5,10)"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.select_pokemon(3,25,25,25,25)"
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 406
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Et elle vient de se mettre à Jour :D
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Je parasite la Phase 1 :D
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 401
+      - 401
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 401
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 406
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Update
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Phase 2
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 402
+      - 402
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 402
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 406
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Update 3
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Phase 3
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 403
+      - 403
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 403
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 406
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Update 4
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Phase 4
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 404
+      - 404
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 404
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Test P_2v2 MSG_TEST
+  id: 55
+  members:
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 16
+    x: 88
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 2
+    x: 243
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 9
+    x: 398
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 13
+    x: 553
+    immortal: false
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.setup_battle(1,1,1,"027")
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.set_trainer_names("Gary le Scout")
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.set_trainer_class(3)"
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.set_trainer_phrases("Ahah, victoire !","Oh, mais comment ?")
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.configure_pokemons(20,20,20,20)"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 36
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: XY_Trainer_Battle_Victory
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 241
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 35
+      - 35
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 35
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Test T_1v1
+  id: 56
+  members:
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 240
+    enemy_id: 12
+    x: 184
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 240
+    enemy_id: 214
+    x: 288
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 232
+    enemy_id: 402
+    x: 400
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 240
+    enemy_id: 541
+    x: 504
+    immortal: false
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.setup_battle(2,1,1,"026")
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.set_trainer_names("Fillette Yuki","Mongtagnard Robert")
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.configure_pokemons({:level => 20, :gender => 2},1,20,20)"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 36
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Ah Ah !
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Rien  ni personne ne peut vaincre '
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - la Team Galaxy !
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: XY_Trainer_Battle_Victory
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 241
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Sbire Bidule : Je dois avouer que tu es un sacré dresseur. '
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'N''as-tu jamais envisagé ton intégration dans une des Team '
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - semant la pagaille dans les diverses régions de Gemme ?
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$game_variables[24]=$scene.add_money"
+      indent: 1
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "\\n[1] remporte \\v[24]$"
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 35
+      - 35
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 35
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Test T_2v2
+  id: 57
+  members:
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 585
+    x: 152
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 130
+    x: 264
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 133
+    x: 376
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 133
+    x: 488
+    immortal: false
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 58
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 59
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 60
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.setup_battle(1,1,1)#,"dresseur (68)","dresseur (68)")
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - $scene.set_trainer_names("Sbire Truc","Sbire Chose")
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.configure_pokemons(5)"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.select_pokemon(3,100)"
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 406
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Traing : Je vais t''apprendre les rudiments du combat'
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Pokémon.
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 300
+      - 300
+      - 0
+      - 0
+      - 1
+      indent: 1
+      code: 122
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene._tuto(0)"
+      indent: 1
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Récupération des infos utiles
+      indent: 1
+      code: 108
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.get_poke_info(-1,299,:name)"
+      indent: 1
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.get_poke_info(0,298,:given_name)"
+      indent: 1
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.get_poke_info(-1,297,:max_hp)"
+      indent: 1
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.get_poke_info(0,296,:max_hp)"
+      indent: 1
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Traing : Le combat contre un Pokémon Sauvage commence.'
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 401
+      - 401
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 401
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 406
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      - 300
+      - 0
+      - 1
+      - 0
+      indent: 1
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Traing : Essayons d''abord de réaliser une attaque.'
+      indent: 2
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Pour cela il faudra choisir le menu "ATTAQUER".
+      indent: 2
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene._tuto(1)"
+      indent: 2
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 2
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      - 300
+      - 0
+      - 2
+      - 1
+      indent: 1
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 449
+      - 1
+      indent: 2
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.get_poke_info(-1,295,:hp)"
+      indent: 3
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 295
+      - 295
+      - 2
+      - 1
+      - 297
+      indent: 3
+      code: 122
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      - 295
+      - 0
+      - 0
+      - 4
+      indent: 3
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 449
+      - 449
+      - 0
+      indent: 4
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Traing : Bravo ! Les PV de \v[299] ont diminués.'
+      indent: 4
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Pour gagner le combat, il faut que un de tes '
+      indent: 4
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Pokémon fasse tomber les PVs de \v[299] à zéro.
+      indent: 4
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 4
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 3
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 3
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 2
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 450
+      - 1
+      indent: 2
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.get_poke_info(0,295,:hp)"
+      indent: 3
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 295
+      - 295
+      - 2
+      - 1
+      - 296
+      indent: 3
+      code: 122
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      - 295
+      - 0
+      - 0
+      - 4
+      indent: 3
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 450
+      - 450
+      - 0
+      indent: 4
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Traing : Ah ! Attention ! Si les PVs de ton \v[298] tombent à 0 '
+      indent: 4
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'il sera déclaré KO et si tous tes Pokémon sont KO... '
+      indent: 4
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Tu perds le combat.
+      indent: 4
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 4
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 3
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 3
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 2
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 448
+      - 1
+      indent: 2
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.get_poke_info(0,295,:send,:spd_stage)"
+      indent: 3
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      - 295
+      - 0
+      - 0
+      - 4
+      indent: 3
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 448
+      - 448
+      - 0
+      indent: 4
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Traing : On dirait que \v[299] a diminué la vitesse de '
+      indent: 4
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - ton \v[298]. Fais très attention, ça n'a l'air de rien mais
+      indent: 4
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - la vitesse peut être très importante lors d'un match.
+      indent: 4
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 4
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 3
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 3
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 2
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 2
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      - 300
+      - 0
+      - 2
+      - 0
+      indent: 1
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Traing : Maintenant que nous avons altéré l''une des'
+      indent: 2
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - stat' du Pokémon adverse, nous allons simplement
+      indent: 2
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - lui lancer une attaque offensive.
+      indent: 2
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene._tuto(2)"
+      indent: 2
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 2
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      - 300
+      - 0
+      - 3
+      - 0
+      indent: 1
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Traing : Maintenant tu as les bases, à toi jouer.'
+      indent: 2
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Si besoin, utilises une potion que tu trouveras dans
+      indent: 2
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - le menu "SAC", elle soignera un peu ton \v[298].
+      indent: 2
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene._tuto(5)"
+      indent: 2
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 300
+      - 300
+      - 0
+      - 0
+      - 4
+      indent: 2
+      code: 122
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 2
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      - 300
+      - 0
+      - 3
+      - 3
+      indent: 1
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene._tuto(6)"
+      indent: 2
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 2
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 402
+      - 402
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 402
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 406
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      - 300
+      - 0
+      - 1
+      - 0
+      indent: 1
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Traing : Nous allons, choisir une attaque qui altère le statut'
+      indent: 2
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - de notre adversaire.
+      indent: 2
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene._tuto(3)"
+      indent: 2
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 300
+      - 300
+      - 0
+      - 0
+      - 2
+      indent: 2
+      code: 122
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 2
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      - 300
+      - 0
+      - 2
+      - 0
+      indent: 2
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene._tuto(4)"
+      indent: 3
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 300
+      - 300
+      - 0
+      - 0
+      - 3
+      indent: 3
+      code: 122
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 3
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 2
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 2
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 403
+      - 403
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 403
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 406
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene._tuto(0)"
+      indent: 1
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 404
+      - 404
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 404
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 1
+      indent: 0
+      code: 242
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 0
+      - 407
+      - 0
+      indent: 0
+      code: 111
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Traing : Oh, c''est dommage que tu ais perdu.'
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - Tu dois faire attention à tes Pokémon et leur santé
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - lors d'un combat.
+      indent: 1
+      code: 401
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 411
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: PkmRS_Victory2
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 249
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 'Traing : Tu as réussi ce combat. Félicitations !'
+      indent: 1
+      code: 101
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - !ruby/object:RPG::AudioFile
+        name: ''
+        volume: 100
+        pitch: 100
+      indent: 1
+      code: 249
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 1
+      code: 0
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 412
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$pokemon_party.heal_party"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - 405
+      - 405
+      - 1
+      indent: 0
+      code: 121
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: true
+      switch_id: 405
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 2
+  name: Test P Tuto
+  id: 61
+  members:
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 304
+    enemy_id: 10
+    x: 320
+    immortal: false
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.setup_battle(1,1,1)"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.configure_pokemons({:level=>25,:rareness=>0},{:level=>25,:rareness=>0},{:level=>25,:rareness=>0},{:level=>25,:rareness=>0})"
+      indent: 0
+      code: 355
+    - !ruby/object:RPG::EventCommand
+      parameters:
+      - "$scene.select_pokemon(3,25,25,25,25)"
+      indent: 0
+      code: 655
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: true
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: Test P_bulbi
+  id: 62
+  members:
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 320
+    enemy_id: 1
+    x: 152
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 320
+    enemy_id: 1
+    x: 264
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 320
+    enemy_id: 1
+    x: 376
+    immortal: false
+  - !ruby/object:RPG::Troop::Member
+    hidden: false
+    y: 320
+    enemy_id: 1
+    x: 488
+    immortal: false
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 63
+  members: []
+- !ruby/object:RPG::Troop
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      parameters: []
+      indent: 0
+      code: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      actor_id: 1
+      turn_a: 0
+      turn_valid: false
+      enemy_hp: 50
+      switch_valid: false
+      switch_id: 1
+      enemy_index: 0
+      actor_valid: false
+      actor_hp: 50
+      turn_b: 0
+      enemy_valid: false
+    span: 0
+  name: ''
+  id: 64
+  members: []

@@ -1,0 +1,2713 @@
+---
+- !ruby/object:GameData::Trainer
+  id: 0
+  base_money: 30
+  battler: '025'
+  internal_names:
+  - Paul
+  special_group: 0
+  team:
+  - :id: 19
+    :given_name:
+    :level: 20
+    :loyalty: 70
+    :shiny: false
+    :gender: 1
+    :moves:
+    - 21
+    - 0
+    - 0
+    - 0
+    :ball: 1
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 31
+    - 0
+    - 0
+    - 0
+    - 0
+    - 31
+    :trainer_id: 0
+    :trainer_name: Paul
+    :item: 241
+    :ability:
+    :form: 1
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 1
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  special_group: 0
+  team:
+  - :id: 9
+    :given_name:
+    :level: 100
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 10
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Jean
+    :item: 0
+    :ability:
+  - :id: 6
+    :given_name:
+    :level: 100
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 1
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Jean
+    :item: 0
+    :ability:
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 2
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team:
+  - :id: 1
+    :given_name: Bulbizarre
+    :level: 1
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 4
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Jean
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 3
+  base_money: 30
+  battler: '026'
+  internal_names:
+  - Tana
+  special_group: 9
+  team:
+  - :id: 282
+    :given_name: Mega Gardevoir
+    :level: 25
+    :loyalty: 35
+    :shiny: true
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 11
+    :bonus:
+    - 4
+    - 12
+    - 16
+    - 100
+    - 100
+    - 100
+    :stats:
+    - 10
+    - 5
+    - 8
+    - 31
+    - 31
+    - 31
+    :trainer_id: 0
+    :trainer_name: Tana
+    :item: 657
+    :ability:
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 4
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  special_group: 0
+  team:
+  - :id: 1
+    :given_name:
+    :level: 1
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 4
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Jean
+    :item: 0
+    :ability:
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 5
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team:
+  - :id: 1
+    :given_name: Bulbizarre
+    :level: 1
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 4
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Jean
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 6
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team:
+  - :id: 1
+    :given_name: Bulbizarre
+    :level: 1
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 4
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Jean
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 7
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team:
+  - :id: 1
+    :given_name: Bulbizarre
+    :level: 1
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 4
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Jean
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 8
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 9
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team:
+  - :id: 1
+    :given_name: Bulbizarre
+    :level: 1
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 4
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Jean
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 10
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 11
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 12
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team:
+  - :id: 1
+    :given_name: Bulbizarre
+    :level: 1
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 4
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Jean
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 13
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 14
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 15
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 16
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 17
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 18
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 19
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 20
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 21
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 22
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 23
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 24
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 25
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 26
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 27
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 28
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 29
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team:
+  - :id: 1
+    :given_name: Bulbizarre
+    :level: 1
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 4
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Jean
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 30
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 31
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 32
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 33
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 34
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 35
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 36
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 37
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 38
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 39
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 40
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 41
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 42
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 43
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 44
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 45
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 46
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 47
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 48
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 49
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 50
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 51
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 52
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 53
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 54
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 55
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 56
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 57
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 58
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 59
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 60
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 61
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 62
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 63
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 64
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 65
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 66
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 67
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 68
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 69
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 70
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 71
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 72
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 73
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 74
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 75
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 76
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 77
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 78
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 79
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 80
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 81
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 82
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 83
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 84
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 85
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 86
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 87
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 88
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 89
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 90
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 91
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 92
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 93
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 94
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 95
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 96
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 97
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 98
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 99
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 100
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 101
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 102
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 103
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 104
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 105
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 106
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 107
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 108
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 109
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 110
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 111
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 112
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 113
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 114
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 115
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 116
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 117
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 118
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 119
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 120
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 121
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 122
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 123
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 124
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 125
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 126
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 127
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 128
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 129
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 130
+  base_money: 16
+  battler: '027'
+  internal_names:
+  - Gary
+  special_group: 0
+  team:
+  - :id: 12
+    :given_name:
+    :level: 20
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 4
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Gary
+    :item: 0
+    :ability:
+  - :id: 214
+    :given_name:
+    :level: 20
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 4
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Gary
+    :item: 0
+    :ability:
+  - :id: 402
+    :given_name:
+    :level: 20
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 4
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Gary
+    :item: 0
+    :ability:
+  - :id: 541
+    :given_name:
+    :level: 20
+    :loyalty: 70
+    :shiny: false
+    :gender:
+    :moves:
+    - 0
+    - 0
+    - 0
+    - 0
+    :ball: 4
+    :bonus:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :stats:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    :trainer_id: 0
+    :trainer_name: Gary
+    :item: 0
+    :ability:
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 131
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 132
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 133
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 134
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 135
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 136
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 137
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 138
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 139
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 140
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 141
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 142
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 143
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 144
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 145
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 146
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 147
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 148
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 149
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 150
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 151
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 152
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 153
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 154
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 155
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 156
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 157
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 158
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 159
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 160
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 161
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 162
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 163
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 164
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 165
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 166
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 167
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 168
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 169
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 170
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 171
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 172
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 173
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 174
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 175
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 176
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 177
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 178
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 179
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 180
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 181
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 182
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 183
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 184
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 185
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 186
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 187
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 188
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 189
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 190
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 191
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 192
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 193
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 194
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 195
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 196
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 197
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 198
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 199
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 200
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 201
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 202
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 203
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 204
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 205
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 206
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 207
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 208
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 209
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 210
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 211
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 212
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 213
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 214
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 215
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 216
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 217
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 218
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 219
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 220
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 221
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 222
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 223
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 224
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 225
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 226
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 227
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 228
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 229
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 230
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 231
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 232
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 233
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 234
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 235
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 236
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 237
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 238
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 239
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 240
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 241
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 242
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 243
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 244
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 245
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 246
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 247
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 248
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 249
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 250
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 251
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 252
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 253
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 254
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 255
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 256
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 257
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 258
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 259
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 260
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 261
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 262
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 263
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 264
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 265
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 266
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 267
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 268
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 269
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 270
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 271
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 272
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 273
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 274
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 275
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 276
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 277
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 278
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1
+- !ruby/object:GameData::Trainer
+  id: 279
+  base_money: 30
+  battler: '001'
+  internal_names:
+  - Jean
+  team: []
+  vs_type: 1

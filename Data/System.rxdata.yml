@@ -1,0 +1,1129 @@
+--- !ruby/object:RPG::System
+variables:
+-
+- Player raw ID
+- !binary |-
+  Q291bnQgb2Ygc2VlbiBQb2vDqW1vbg==
+- !binary |-
+  Q291bnQgb2YgY2F1Z2h0IFBva8OpbW9u
+- Current Box
+- Input number
+- !binary |-
+  QW1vdW50IG9mIFBva8OpbW9uIHRvIGNob29zZQ==
+- "--- Reserved"
+- RH Trainer ID to fight
+- Def. Particle terrain tag
+- Current Hour (virtual/real)
+- Current minute (virtual / real)
+- Current second
+- Current Week Day (virtual/real)
+- Current week (virtual)
+- Current month (virtual / real)
+- Current month day (virtual / real)
+- Current tone
+- Count of following Heroes
+- !binary |-
+  Q291bnQgb2YgZm9sbG93aW5nIFBva8OpbW9u
+- !binary |-
+  Q291bnQgb2YgZm9sbG93aW5nIEZyaWVuZCdzIFBva8OpbW9u
+- Follower to move (in player move)
+- "--- Reserved"
+- Dig MapID
+- Dig X coordinate
+- Dig Y coordinate
+- TMP_1
+- TMP_2
+- TMP_3
+- TMP_4
+- TMP_5
+- Trainer Transition ID
+- Map Transition ID
+- "--- Reserved"
+- AI level
+- Second Enemy Trainer ID
+- Friend Trainer ID
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- Coin count
+- "--- Reserved"
+- call_party_menu pokemon index
+- Daycare Price
+- Daycare Rate
+- Daycare ID
+- Battle lost Map return ID
+- Battle lost X coordinate
+- Battle lost Y coordinate
+- Battle Mode
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- Suie
+- Pathfinding_cross_map
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+cancel_se: !ruby/object:RPG::AudioFile
+  name: select
+  volume: 80
+  pitch: 90
+magic_number: 93804324
+escape_se: !ruby/object:RPG::AudioFile
+  name: Fleee
+  volume: 80
+  pitch: 70
+battle_end_me: !ruby/object:RPG::AudioFile
+  name: fainted_jingle
+  volume: 100
+  pitch: 100
+start_map_id: 4
+shop_se: !ruby/object:RPG::AudioFile
+  name: Down
+  volume: 80
+  pitch: 100
+gameover_name: ''
+words: !ruby/object:RPG::System::Words
+  str: ''
+  armor3: ''
+  mdef: ''
+  gold: ''
+  sp: ''
+  skill: ''
+  int: ''
+  armor2: ''
+  equip: ''
+  hp: ''
+  pdef: ''
+  attack: ''
+  agi: ''
+  armor1: ''
+  atk: ''
+  item: ''
+  dex: ''
+  armor4: ''
+  weapon: ''
+  guard: ''
+switches:
+-
+- Plays female character
+- Show shadow under Characters
+- Slide through events
+- "=== Does not work"
+- Common event worked
+- MapLinker Disabled
+- Time use system clock
+- Time is disabled
+- !binary |-
+  QWRkZWQgUG9rw6ltb24gaXMgc3RvcmVk
+- Tint & Time enabled
+- Day Time
+- Night Time
+- Morning Time
+- Evening Time
+- Go in with BW transition
+- Nuzlocke enabled
+- Player on AccroBike
+- FollowMe does not reset pos on warp
+- FollowMe Enabled
+- Can fly / Is outside
+- Can dig
+- FollowMe reposition forced
+- On bike
+- Strength was used
+- Remove new lines from RMXP messages
+- Show choice on top
+- "=== Does not work"
+- "=== Does not work well"
+- Let's Go FollowMe
+- "=== Deprecated"
+- "=== Deprecated"
+- "=== Deprecated"
+- "=== Deprecated"
+- "=== Deprecated"
+- "=== Deprecated"
+- Lost last battle
+- Won last battle
+- !binary |-
+  Q2F1Z2h0IFBva8OpbW9uIGluIGxhc3QgYmF0dGxl
+- Battle Weather applies to Map
+- Pre-Gen8 Exp
+- Run disabled in next battle
+- Exp disabled
+- !binary |-
+  Q2F0Y2hpbmcgUG9rw6ltb24gZGlzYWJsZWQ=
+- No ball animation for enemy
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- Water Reflection Disabled
+- Player is running
+- Player can run
+- Player turn when sliding
+- Flash was used
+- It's raining
+- It's sunny
+- There's a sandstorm
+- It's snowy
+- It's foggy
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- player_spotted? disabled
+- "--- Reserved"
+- Poison KO on overworld
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- "--- Reserved"
+- Region = Alola (unused)
+- Solved Ruins of Alph puzzle
+- FollowMe was enabled before smart disabl
+- !binary |-
+  UG9rw6lkZXggTmF0aW9uYWwgZW5hYmxlZA==
+- !binary |-
+  UG9rw6lkZXggZW5hYmxlZA==
+- !binary |-
+  Um9jaGVyIGJyaXPDqQ==
+- Evoli ajouté
+- Mew rencontrable
+- Jumelles battues
+- test_path_crossmap
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+decision_se: !ruby/object:RPG::AudioFile
+  name: select
+  volume: 80
+  pitch: 100
+edit_map_id: 8
+battle_start_se: !ruby/object:RPG::AudioFile
+  name: ''
+  volume: 80
+  pitch: 100
+battle_bgm: !ruby/object:RPG::AudioFile
+  name: PkmRB-Battle3
+  volume: 100
+  pitch: 100
+test_troop_id: 4
+equip_se: !ruby/object:RPG::AudioFile
+  name: ''
+  volume: 80
+  pitch: 100
+title_name: ''
+enemy_collapse_se: !ruby/object:RPG::AudioFile
+  name: ''
+  volume: 80
+  pitch: 100
+cursor_se: !ruby/object:RPG::AudioFile
+  name: Choose
+  volume: 80
+  pitch: 100
+elements:
+- ''
+- ''
+start_y: 14
+battler_hue: 0
+load_se: !ruby/object:RPG::AudioFile
+  name: select
+  volume: 80
+  pitch: 100
+title_bgm: !ruby/object:RPG::AudioFile
+  name: PkmRS-Oceanic
+  volume: 100
+  pitch: 100
+buzzer_se: !ruby/object:RPG::AudioFile
+  name: Pokerebond
+  volume: 100
+  pitch: 100
+windowskin_name: pokesys0
+test_battlers:
+- !ruby/object:RPG::System::TestBattler
+  armor4_id: 0
+  actor_id: 1
+  weapon_id: 0
+  level: 50
+  armor3_id: 0
+  armor2_id: 0
+  armor1_id: 0
+battleback_name: battle8
+party_members:
+- 1
+actor_collapse_se: !ruby/object:RPG::AudioFile
+  name: ''
+  volume: 80
+  pitch: 100
+gameover_me: !ruby/object:RPG::AudioFile
+  name: ''
+  volume: 100
+  pitch: 100
+battler_name: battler
+save_se: !ruby/object:RPG::AudioFile
+  name: Nintendo
+  volume: 80
+  pitch: 150
+battle_transition: ''
+start_x: 9
+_: 7829367
